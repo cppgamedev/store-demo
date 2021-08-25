@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+        <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Game Design and Development Store</title>
@@ -16,6 +17,21 @@
     padding: 20px;
     
 }
+    
+    /* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
 </style>
     
 </head>
@@ -24,11 +40,13 @@
     
     <p>Welcome to our club store!</p>
     
-    <!-- products go down here -->
-    <div class="city">
-    <h2>London</h2>
-    <p>London is the capital of England.</p>
-    </div> 
+    <nav>
+    <ul>
+      <li><a href="#">Shirts</a></li>
+      <li><a href="#">Jackets</a></li>
+      <li><a href="#">Sweatshirts</a></li>
+    </ul>
+  </nav> 
 
 
 </body>
